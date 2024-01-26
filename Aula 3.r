@@ -52,6 +52,7 @@ ggplot(data = dataBase, mapping = aes(x = island, fill = species)) + geom_bar() 
 #Grafico de pontos
 ggplot(data = dataBase, mapping = aes(x = culmen_length_mm, y = flipper_length_mm, color = species )) + geom_jitter()
 
-
+#Blox pot
+ggplot(data = dataBase, mapping = aes(y = body_mass_g, x = species)) + geom_boxplot()
 
 
